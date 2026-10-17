@@ -1,0 +1,8 @@
+{
+  "name": "Imaad International Tours & Travels",
+  "description": "Your Sacred Journey, Beautifully Planned. Premium Umrah travel packages, Makkah & Madinah Ziyarat, luxury hotels, flights, and travel coordination from Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
