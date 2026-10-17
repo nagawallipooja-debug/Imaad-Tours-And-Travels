@@ -41,14 +41,6 @@ import luxuryHotel from "../assets/images/luxury_hotel_makkah_room_1792237817168
 import jabalAlNour from "../assets/images/jabal_al_nour_makkah_1792237818259.jpg";
 import masjidQuba from "../assets/images/masjid_quba_madinah_1792237817597.jpg";
 
-export const IMAGES = {
-  heroKaaba,
-  masjidNabawi,
-  luxuryHotel,
-  jabalAlNour,
-  masjidQuba,
-};
-
 export function getWhatsAppUrl(customMessage?: string): string {
   const baseMessage = customMessage || "Assalamu Alaikum. I would like to know more about Imaad International Tours & Travels. Please share the available Umrah packages, departure dates, hotel details, package inclusions, and final price.";
   return `https://wa.me/917989115941?text=${encodeURIComponent(baseMessage)}`;
