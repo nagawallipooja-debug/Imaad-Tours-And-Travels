@@ -35,7 +35,7 @@ export const BUSINESS_INFO: BusinessInfo = {
 };
 
 export const IMAGES = {
- import heroKaaba from "../assets/images/hero_kaaba_masjid_haram_1792237816411.jpg";
+import heroKaaba from "../assets/images/hero_kaaba_masjid_haram_1792237816411.jpg";
 import masjidNabawi from "../assets/images/madinah_masjid_nabawi_1792237817253.jpg";
 import luxuryHotel from "../assets/images/luxury_hotel_makkah_room_1792237817168.jpg";
 import jabalAlNour from "../assets/images/jabal_al_nour_makkah_1792237818259.jpg";
