@@ -35,11 +35,18 @@ export const BUSINESS_INFO: BusinessInfo = {
 };
 
 export const IMAGES = {
-  heroKaaba: "/src/assets/images/hero_kaaba_masjid_haram_1792237816411.jpg",
-  masjidNabawi: "/src/assets/images/madinah_masjid_nabawi_1792237817253.jpg",
-  luxuryHotel: "/src/assets/images/luxury_hotel_makkah_room_1792237817168.jpg",
-  jabalAlNour: "/src/assets/images/jabal_al_nour_makkah_1792237818259.jpg",
-  masjidQuba: "/src/assets/images/masjid_quba_madinah_1792237817597.jpg"
+ import heroKaaba from "../assets/images/hero_kaaba_masjid_haram_1792237816411.jpg";
+import masjidNabawi from "../assets/images/madinah_masjid_nabawi_1792237817253.jpg";
+import luxuryHotel from "../assets/images/luxury_hotel_makkah_room_1792237817168.jpg";
+import jabalAlNour from "../assets/images/jabal_al_nour_makkah_1792237818259.jpg";
+import masjidQuba from "../assets/images/masjid_quba_madinah_1792237817597.jpg";
+
+export const IMAGES = {
+  heroKaaba,
+  masjidNabawi,
+  luxuryHotel,
+  jabalAlNour,
+  masjidQuba,
 };
 
 export function getWhatsAppUrl(customMessage?: string): string {
